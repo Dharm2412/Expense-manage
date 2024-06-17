@@ -1,0 +1,196 @@
+.form-inline {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* .navbar-nav {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+} */
+.navbar-form {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.form-control {
+  width: 350px;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e2e9f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-group input {
+  padding: 10px;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.form-group button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.expense-list {
+  margin-bottom: 20px;
+}
+
+.expense-list h2 {
+  margin: 0;
+}
+
+.expense-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.expense-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.expense-list li:last-child {
+  border-bottom: none;
+}
+
+.total-expenses h2 {
+  margin: 0;
+  text-align: right;
+}
+
+.total-expenses span {
+  font-weight: bold;
+}
+.container {
+  background-color: #c4c1e0;
+  margin-top: 0px;
+  border-radius: 20px;
+}
+.container-1 {
+  margin-top: 50px;
+}
+#expenseDescription {
+  border-radius: 10px;
+}
+#expenseAmount {
+  border-radius: 10px;
+}
+
+/* styles.css */
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.container {
+  background: #e4f1fe;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  margin-bottom: 100px;
+  max-width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.container-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.expense-list {
+  margin-top: 20px;
+}
+
+.expense-list h2 {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.expense-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.expense-list li {
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+}
+
+.total-expenses {
+  margin-top: 20px;
+}
+
+.total-expenses h2 {
+  text-align: center;
+  color: #333;
+}
+
+#totalExpensesAmount {
+  color: #e74c3c;
+}
+.main {
+  background-color: #8dc6ff;
+}
